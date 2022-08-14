@@ -85,7 +85,7 @@ const Details = ({ route, navigation }) => {
                 <Text
                   style={{
                     fontSize: SIZES.font,
-                    fontFamily: FONTS.semiBold,
+                    fontFamily: FONTS["Inter-SemiBold"],
                     color: COLORS.primary,
                   }}
                 >

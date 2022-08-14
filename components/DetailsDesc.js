@@ -31,7 +31,7 @@ const DetailsDesc = ({ data }) => {
         <Text
           style={{
             fontSize: SIZES.font,
-            fontFamily: FONTS.semiBold,
+            fontFamily: FONTS["Inter-SemiBold"],
             color: COLORS.primary,
           }}
         >
@@ -41,7 +41,7 @@ const DetailsDesc = ({ data }) => {
           <Text
             style={{
               fontSize: SIZES.small,
-              fontFamily: FONTS.regular,
+              fontFamily: FONTS["Inter-Regular"],
               color: COLORS.secondary,
               lineHeight: SIZES.large,
             }}
@@ -51,7 +51,7 @@ const DetailsDesc = ({ data }) => {
             <Text
               style={{
                 fontSize: SIZES.small,
-                fontFamily: FONTS.semiBold,
+                fontFamily: FONTS["Inter-SemiBold"],
                 color: COLORS.primary,
               }}
               onPress={() => {

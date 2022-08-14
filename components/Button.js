@@ -41,7 +41,7 @@ export const RectButton = ({ minWidth, fontSize, handlePress, ...props }) => {
     >
       <Text
         style={{
-          fontFamily: FONTS.semiBold,
+          fontFamily: FONTS["Inter-SemiBold"],
           fontSize: fontSize,
           color: COLORS.white,
           textAlign: "center",

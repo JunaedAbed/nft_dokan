@@ -23,7 +23,7 @@ const DetailsBid = ({ bid }) => {
       <View>
         <Text
           style={{
-            fontFamily: FONTS.semiBold,
+            fontFamily: FONTS["Inter-SemiBold"],
             fontSize: SIZES.small,
             color: COLORS.primary,
           }}
@@ -33,7 +33,7 @@ const DetailsBid = ({ bid }) => {
 
         <Text
           style={{
-            fontFamily: FONTS.regular,
+            fontFamily: FONTS["Inter-Regular"],
             fontSize: SIZES.small - 2,
             color: COLORS.secondary,
             marginTop: 3,

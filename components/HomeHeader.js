@@ -41,7 +41,7 @@ const HomeHeader = ({ onSearch }) => {
       <View style={{ marginVertical: SIZES.font }}>
         <Text
           style={{
-            fontFamily: FONTS.regular,
+            fontFamily: FONTS["Inter-Regular"],
             fontSize: SIZES.small,
             color: COLORS.white,
           }}
@@ -51,7 +51,7 @@ const HomeHeader = ({ onSearch }) => {
 
         <Text
           style={{
-            fontFamily: FONTS.bold,
+            fontFamily: FONTS["Inter-Bold"],
             fontSize: SIZES.large,
             color: COLORS.white,
             marginTop: SIZES.base / 2,
